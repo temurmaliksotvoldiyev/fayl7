@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Ranglar nomi */
+#usul1 {
+    background: greenyellow;
+}
+
+/* #Hex */
+#usul2 {
+    background: #ececec;
+    ;
+}
+
+/* rgb*/
+#usul3 {
+    background: #1be611;
+    ;
+}
+
+#usul4 {
+    background: #129721;
+    ;
+}
+
+.linear {
+    height: 100px;
+    margin-top: 20px;
+    background: linear-gradient(to top right,
+
+            red,
+            yellow,
+            greenyellow,
+            blue,
+            orange,
+            violet,
+            pink);
+}
+
+.tv {
+    width: 300px;
+    margin-top: 20px;
+    height: 600px;
+    background-image: linear-gradient(to right,
+    red 0%, 
+    red 20%,
+    blue 20%,
+    blue 40%,
+    green 40%,
+    green 60%,
+    yellow 60%,
+    yellow 80%,
+    violet 80%, 
+    violet 100%
+
+
+        );
+}
+
+
+.box {
+    width: 900px;
+    margin-top: 20px;
+    height: 200px;
+    background-image: linear-gradient(to right,
+    red 0%, 
+    red 20%,
+    blue 20%,
+    blue 40%,
+    green 40%,
+    green 60%,
+    yellow 60%,
+    yellow 80%,
+    violet 80%, 
+    violet 100%
+
+
+        );
+}
+.box{
+    width: 500px;
+    height: 300px;
+    background-image: repeating-linear-gradient(red,yellow 10%, blue 20%);
+}
+.box1{
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    /* background: radial-gradient(red, green, blue); */
+    background: radial-gradient(circle, red 5%, green 20%, blue 35%,  yellow 40%, black);
+}
+.box2{
+    margin-top: 20px;
+
+    width: 500px;
+    height: 300px;  
+    background: repeating-radial-gradient(
+        crimson,
+        teal 20%,
+        dodgerblue 10%,
+        coral 5%
+    ); 
+}
+.box3{
+    margin-top: 20px;
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient( at 70% 20%,aqua 30deg, crimson 30deg, rgba(9, 255, 0, 0.511)); 
+}
+.box4{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient( 
+        aqua 0%,
+        aqua 20%,
+      crimson 20%,
+      crimson 50%,
+       rgba(9, 255, 0, 0.511)50%,
+       rgba(9, 255, 0, 0.511) 70%,
+       goldenrod 70%, 
+       goldenrod 100%
+);       
+}
+.box5{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: repeating-conic-gradient(
+        aqua 0% ,
+        aqua 20%,
+      crimson 20%,
+      crimson 40%,
+       rgba(9, 255, 0, 0.511)40%,
+       rgba(9, 255, 0, 0.511) 60% 
+
+);       
+}
+.box6{
+    
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: repeating-conic-gradient(
+        crimson 5%,
+        yellow10%,
+        black 15%
+    );
+
+}

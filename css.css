@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: repeating-conic-gradient(
+  red 0%,
+  red 12%,
+  blue 12%,
+  blue 25%,
+  dodgerblue 25%,
+  dodgerblue 37%,
+  pink 37%,
+  pink 50%,
+  blueviolet 40%,
+    blueviolet  62%,
+    orange 62%,
+    orange 75%,
+    greenyellow 75%,
+    greenyellow 87%,
+    gold 87%,
+    gold 100%
+    
+
+
+
+
+);       
+}
+
+.box1 {
+    width: 600px;
+    margin-top: 20px;
+    height: 400px;
+    background-image: linear-gradient(to right,
+    red 0%, 
+    red 14%,
+    orange 14%,
+     orange  28%,
+     yellow 28%,
+     yellow 42%,
+    green 42%,
+    green 56%,
+      blue 56%,
+      blue 70%,
+      blueviolet 70%,
+      blueviolet 84%,
+    violet 84%, 
+    violet 100%
+
+
+        );
+}
+.box4{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient(
+        aqua 0%,
+        aqua 33%,
+      crimson 33%,
+      crimson 66%,
+       rgba(18, 116, 14, 0.511)66%,
+       rgba(9, 255, 0, 0.511) 100%
+
+);           
+}
